@@ -2,7 +2,6 @@ package eagerLoading;
 
 
 public class DatabaseConnection {
-
     private static DatabaseConnection databaseConnection = new DatabaseConnection();
 
     private DatabaseConnection() {

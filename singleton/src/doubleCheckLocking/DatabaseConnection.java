@@ -2,7 +2,6 @@ package doubleCheckLocking;
 
 
 public class DatabaseConnection {
-
     private static DatabaseConnection databaseConnection = null;
 
     private DatabaseConnection() {
