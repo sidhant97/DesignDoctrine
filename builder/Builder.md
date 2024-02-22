@@ -29,7 +29,7 @@ Another way to set attribute values and validate them is by using the constructo
 
 By using the Telescope constructor, it is possible to set attribute values and validate them in a sophisticated manner.
 
-# **But use case statement is not fulfilled, so we can now utilize through using Builder Pattern.**
+# **Still use case statement is not fulfilled, so we can now utilize through using Builder Pattern.**
 
 The Builder Design Pattern is a creational pattern used to construct a complex object step by step. It separates the construction of a complex object from its representation so that the same construction process can create different representations. This pattern is particularly useful when an object needs to be created with many possible configurations, and it's not practical to create constructor overloads for each possible set of parameters.
 
