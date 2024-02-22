@@ -17,7 +17,7 @@ Here is a simple example of how to implement the Singleton design pattern in Jav
 
 * **[Single Threaded Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/singleThreaded)**
 * **[Eager Loading Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/eagerLoading)**
-* **[Double Checking Locking Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/doubleCheckLocking)**
+* **[Double Check Locking Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/doubleCheckLocking)**
 # Use Cases
 The Singleton pattern is often used in scenarios where a single instance of a class is required to control the action throughout the execution. Common use cases include:
 

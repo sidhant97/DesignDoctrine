@@ -1,7 +1,7 @@
 # Builder Design Pattern
 
 # Use Case
-Before creating an object, we need to validate the number of attributes and set them. How do we do this?
+Before creating an object, we need to validate the value of attributes and set them. How do we do this?
 
 **Solution 1** :  
 
