@@ -6,7 +6,6 @@ mechanisms, aiming to create objects in a manner suitable to the situation. The 
 when exactly one object is needed to coordinate actions across the system.
 
 # Intent
-
 Ensure that a class has just a single instance.
 Provide a global point of access to that instance.
 Implementation
@@ -29,7 +28,6 @@ Here is a simple example of how to implement the Singleton design pattern in Jav
 * *
   *[Double Checking LockingSingleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/doubleCheckLocking)
   **
-
 # Use Cases
 
 The Singleton pattern is often used in scenarios where a single instance of a class is required to control the action
@@ -41,13 +39,10 @@ throughout the execution. Common use cases include:
 4. Cache: Implementing cache mechanisms where a single instance controls the cached data.
 
 # Pros
-
 * Ensures only one instance of a class is created.
 * Provides a single point of access to that instance.
 * Can be lazy-loaded if the instance is not needed until later in the application's lifecycle.
-
 # Cons
-
 * Can introduce global state into an application, which can lead to unintended consequences if not managed carefully.
 * The pattern does not inherently solve thread safety in creating the instance; additional work is needed to make it
   thread-safe.
