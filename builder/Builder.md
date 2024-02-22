@@ -49,7 +49,11 @@ Implementing the Builder pattern involves creating a Builder class that defines 
 4. Director: Directs the building process using the builder interface. It knows which steps to execute to get the desired product. 
 
 # Example in Java
-Below is a simplified example of the Builder pattern used to construct a complex Car object.
+Below is a simplified example of the Builder pattern used to construct a complex Person object.
+
+* **[Person version 0](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV0)**
+* **[Person version 1](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV1)** 
+* **[Person version 2 ](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV2)**
 
 # Use Cases
 * When the algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled.
