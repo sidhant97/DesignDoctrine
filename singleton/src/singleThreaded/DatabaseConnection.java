@@ -5,6 +5,7 @@ public class DatabaseConnection {
     private static DatabaseConnection databaseConnection = null;
 
     private DatabaseConnection() {
+
         System.out.println("Single Thread is called");
     }
 
