@@ -29,7 +29,7 @@ Another way to set attribute values and validate them is by using the constructo
 
 By using the Telescope constructor, it is possible to set attribute values and validate them in a sophisticated manner.
 
-# **Our use case statement is not fulfilled , so we can now utilize through using Builder Pattern.**
+# **But use case statement is not fulfilled, so we can now utilize through using Builder Pattern.**
 
 The Builder Design Pattern is a creational pattern used to construct a complex object step by step. It separates the construction of a complex object from its representation so that the same construction process can create different representations. This pattern is particularly useful when an object needs to be created with many possible configurations, and it's not practical to create constructor overloads for each possible set of parameters.
 
@@ -51,9 +51,9 @@ Implementing the Builder pattern involves creating a Builder class that defines 
 # Example in Java
 Below is a simplified example of the Builder pattern used to construct a complex Person object.
 
-* **[Person version 0](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV0)**
-* **[Person version 1](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV1)** 
-* **[Person version 2 ](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV2)**
+* **[Person Version 0](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV0)**
+* **[Person Version 1](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV1)** 
+* **[Person Version 2 ](https://github.com/sidhant97/DesignDoctrine/tree/main/builder/src/withBuilderV2)**
 
 # Use Cases
 * When the algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled.
