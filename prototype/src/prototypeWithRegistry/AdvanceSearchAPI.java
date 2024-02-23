@@ -1,3 +1,5 @@
+package prototypeWithRegistry;
+
 public class AdvanceSearchAPI extends SearchAPI {
 
     private String query;
@@ -27,7 +29,7 @@ public class AdvanceSearchAPI extends SearchAPI {
 
     @Override
     public String toString() {
-        return "AdvanceSearchAPI{" +
+        return "prototypeWithRegistry.AdvanceSearchAPI{" +
                 "query='" + query + '\'' +
                 '}';
     }

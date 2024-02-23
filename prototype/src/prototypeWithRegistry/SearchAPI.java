@@ -1,3 +1,5 @@
+package prototypeWithRegistry;
+
 public class SearchAPI implements CloneablePrototype<SearchAPI> {
 
     private String url;
@@ -47,7 +49,7 @@ public class SearchAPI implements CloneablePrototype<SearchAPI> {
 
     @Override
     public String toString() {
-        return "SearchAPI{" +
+        return "prototypeWithRegistry.SearchAPI{" +
                 "url='" + url + '\'' +
                 ", path='" + path + '\'' +
                 ", token='" + token + '\'' +

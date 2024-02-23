@@ -1,3 +1,5 @@
+package prototypeWithRegistry;
+
 import java.util.HashMap;
 import java.util.Map;
 
