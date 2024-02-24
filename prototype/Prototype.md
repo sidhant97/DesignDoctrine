@@ -1,4 +1,4 @@
-# Prototype Design Pattern and Registry Design Pattern
+# Prototype and Registry Design Pattern
 
 # Use Case
 When given an object from a class, we must generate a duplicate of it.
