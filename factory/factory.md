@@ -23,7 +23,7 @@ Here is a simple example of how to implement the Factory design pattern in Java:
 * [**Abstract Factory**](https://github.com/sidhant97/DesignDoctrine/tree/main/factory/src/abstractFactoryMethod)
 
 # Use Cases
-The Singleton pattern is often used in scenarios where a single instance of a class is required to control the action throughout the execution. Common use cases include:
+The Factory pattern is often used in scenarios where a single instance of a class is required to control the action throughout the execution. Common use cases include:
 
 1. Frameworks and Toolkits: React and Flutter frameworks.
 2. Dependency Injection.
