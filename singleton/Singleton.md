@@ -12,7 +12,7 @@ Implementing a Singleton pattern involves several key steps:
 2. Create a Private Static Instance of the Class: This will be the single instance created by the class itself.
 3. Provide a Public Static Method That Returns the Instance: This is the global access point for the outer world to get the instance of the singleton class.
 
-Example in Java
+# Example in Java
 
 Here is a simple example of how to implement the Singleton design pattern in Java:
 
