@@ -1,12 +1,12 @@
 public class OrderImpl implements Order{
 
-    private final InvoiceHelper invoice;
+    private final InvoiceFacade invoice;
 
-    private final SendNotificationHelper sendNotification;
+    private final SendNotificationFacade sendNotification;
 
     public OrderImpl(){
-    this.invoice = new InvoiceHelper();
-    this.sendNotification = new SendNotificationHelper();
+        this.invoice = new InvoiceFacade();
+        this.sendNotification = new SendNotificationFacade();
     }
     @Override
     public void createOrder() {
