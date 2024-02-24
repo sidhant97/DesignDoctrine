@@ -1,7 +1,7 @@
-# DesignDoctrine
-Design Doctrine or Design principles are fundamental guidelines and best practices that designers use to enhance the aesthetics, functionality, and usability of a product or project
+# Software Design Doctrine
+Software Design Doctrine or Design principles are fundamental guidelines and best practices that designers use to enhance the aesthetics, functionality, and usability of a product or project
 
-Design Doctrine or Design patterns are typical solutions to common problems in software design. They represent best practices used by experienced object-oriented software developers to solve certain problems in a more efficient and elegant way. Design patterns are templates designed to help write code that is easy to understand and maintain.
+Software Design Doctrine or Design patterns are typical solutions to common problems in software design. They represent best practices used by experienced object-oriented software developers to solve certain problems in a more efficient and elegant way. Design patterns are templates designed to help write code that is easy to understand and maintain.
 
 # Why Design Patterns?
 The need for design patterns arises from the desire to achieve code reusability and to solve problems in a standard, tested, and efficient manner. They help:
