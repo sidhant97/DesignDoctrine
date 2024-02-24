@@ -12,11 +12,10 @@ The need for design patterns arises from the desire to achieve code reusability 
 * **Facilitate communication:** Design patterns provide a common vocabulary for developers, which simplifies communication about software designs and architectures.
 * **Solve specific design issues:** Each pattern addresses a specific issue, providing a structured approach to more efficient problem-solving.
 
-
-![img.png](img.png)
-
 # Some Most Useful Design Patterns
 Design patterns can be categorized into three main types: Creational, Structural, and Behavioral. Here are some of the most useful patterns from each category:
+
+![img.png](img.png)
 
 # Creational Patterns
 
