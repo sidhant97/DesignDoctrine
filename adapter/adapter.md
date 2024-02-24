@@ -16,6 +16,8 @@ The Adapter Design Pattern is a structural pattern that allows incompatible inte
 # Example in Java
 Certainly! Let's consider an example where we have an existing system that uses UPI (Unified Payments Interface) for payment services, and we want to adapt it to work with a new Bank type. In this case, we'll create an adapter to bridge the UPI payment service to the new Bank type.
 
+![img.png](img.png)
+
 [ **UPI (Unified Payments Interface)**](https://github.com/sidhant97/DesignDoctrine/tree/main/adapter)
   
 # Use Cases
