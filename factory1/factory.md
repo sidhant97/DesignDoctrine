@@ -14,7 +14,7 @@ The Factory Design Pattern is a creational pattern that provides an interface fo
 
  * **Abstract Factory:** Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-#Example in Java
+# Example in Java
 
 Here is a simple example of how to implement the Factory design pattern in Java:
 
@@ -28,7 +28,7 @@ The Singleton pattern is often used in scenarios where a single instance of a cl
 1. Frameworks and Toolkits: React and Flutter frameworks.
 2. Dependency Injection.
 3. Cross-Platform Applications.
-4. Object Pooling. 
+4. Object Pooling.  
 
 # Pros
 * **Flexibility and Scalability:** The Factory Method pattern allows the class code to work with different subclasses of products without modifying the code.
