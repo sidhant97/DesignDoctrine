@@ -1,3 +1,5 @@
+package simpleFactory;
+
 public class CloudProviderFactory {
 
     public static CloudProvider getCloudProvider(String cloudProvider) {

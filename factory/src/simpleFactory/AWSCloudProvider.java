@@ -1,10 +1,12 @@
+package simpleFactory;
+
 public class AWSCloudProvider extends CloudProvider {
 
     private String mfa = "123456";
 
     public AWSCloudProvider() {
         super();
-        System.out.println("AWSCloudProvider is called.");
+        System.out.println("simpleFactory.AWSCloudProvider is called.");
     }
 
     public String getMfa() {

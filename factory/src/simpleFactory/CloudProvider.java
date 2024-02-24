@@ -1,3 +1,5 @@
+package simpleFactory;
+
 public abstract class CloudProvider {
 
     private String userName = "test";

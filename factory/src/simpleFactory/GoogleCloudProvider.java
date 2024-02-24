@@ -1,9 +1,11 @@
+package simpleFactory;
+
 public class GoogleCloudProvider extends CloudProvider {
     private String otp = "XXXXXX";
 
     public GoogleCloudProvider() {
         super();
-        System.out.println("MicrosoftCloudProvider is called.");
+        System.out.println("simpleFactory.MicrosoftCloudProvider is called.");
     }
 
     public String getOtp() {

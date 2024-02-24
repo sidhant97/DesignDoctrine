@@ -1,8 +1,10 @@
+package simpleFactory;
+
 public class MicrosoftCloudProvider extends CloudProvider {
 
     public MicrosoftCloudProvider() {
         super();
-        System.out.println("MicrosoftCloudProvider is called.");
+        System.out.println("simpleFactory.MicrosoftCloudProvider is called.");
     }
 
     @Override
