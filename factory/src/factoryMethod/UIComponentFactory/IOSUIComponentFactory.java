@@ -1,7 +1,7 @@
-package factorymethod.UIComponentFactory;
+package factoryMethod.UIComponentFactory;
 
-import factorymethod.components.button.Button;
-import factorymethod.components.button.IOSButton;
+import factoryMethod.components.button.Button;
+import factoryMethod.components.button.IOSButton;
 
 public class IOSUIComponentFactory implements UIComponentFactory {
     @Override

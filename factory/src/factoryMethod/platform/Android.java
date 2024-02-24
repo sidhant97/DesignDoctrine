@@ -1,8 +1,6 @@
-package factorymethod.platform;
+package factoryMethod.platform;
 
-import factorymethod.PlatformEnum;
-
-import java.lang.ref.SoftReference;
+import factoryMethod.PlatformEnum;
 
 public class Android extends Platform {
     @Override

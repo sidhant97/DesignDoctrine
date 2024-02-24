@@ -1,9 +1,9 @@
-package factorymethod;
+package factoryMethod;
 
-import factorymethod.UIComponentFactory.UIComponentFactory;
-import factorymethod.platform.Android;
-import factorymethod.platform.IOS;
-import factorymethod.platform.Platform;
+import factoryMethod.UIComponentFactory.UIComponentFactory;
+import factoryMethod.platform.Android;
+import factoryMethod.platform.IOS;
+import factoryMethod.platform.Platform;
 
 public class Client {
     public static void main(String[] args) {

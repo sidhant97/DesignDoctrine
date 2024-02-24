@@ -1,4 +1,4 @@
-package factorymethod.components.button;
+package factoryMethod.components.button;
 
 public class IOSButton implements Button {
     @Override

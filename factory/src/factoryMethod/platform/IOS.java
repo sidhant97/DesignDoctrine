@@ -1,6 +1,6 @@
-package factorymethod.platform;
+package factoryMethod.platform;
 
-import factorymethod.PlatformEnum;
+import factoryMethod.PlatformEnum;
 
 public class IOS extends Platform {
     @Override

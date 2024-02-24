@@ -1,7 +1,7 @@
-package factorymethod.UIComponentFactory;
+package factoryMethod.UIComponentFactory;
 
-import factorymethod.components.button.AndroidButton;
-import factorymethod.components.button.Button;
+import factoryMethod.components.button.AndroidButton;
+import factoryMethod.components.button.Button;
 
 public class AndroidUIComponentFactory implements UIComponentFactory {
     @Override

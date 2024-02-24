@@ -1,7 +1,7 @@
-package factorymethod.platform;
+package factoryMethod.platform;
 
-import factorymethod.UIComponentFactory.UIComponentFactory;
-import factorymethod.UIFactory;
+import factoryMethod.UIComponentFactory.UIComponentFactory;
+import factoryMethod.UIFactory;
 
 public abstract class Platform {
     public abstract void setTheme();

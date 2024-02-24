@@ -1,8 +1,8 @@
-package factorymethod;
+package factoryMethod;
 
-import factorymethod.UIComponentFactory.AndroidUIComponentFactory;
-import factorymethod.UIComponentFactory.IOSUIComponentFactory;
-import factorymethod.UIComponentFactory.UIComponentFactory;
+import factoryMethod.UIComponentFactory.AndroidUIComponentFactory;
+import factoryMethod.UIComponentFactory.IOSUIComponentFactory;
+import factoryMethod.UIComponentFactory.UIComponentFactory;
 
 public class UIFactory {
     public static UIComponentFactory decideFactory(String platform) {
