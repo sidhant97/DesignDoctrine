@@ -2,9 +2,10 @@
 The Singleton Design Pattern is a software design pattern that ensures a class has only one instance and provides a global point of access to that instance. It is a part of the creational pattern family, which deals with object creation mechanisms, aiming to create objects in a manner suitable to the situation. The Singleton pattern is particularly useful when exactly one object is needed to coordinate actions across the system.
 
 # Intent
-Ensure that a class has just a single instance.
-Provide a global point of access to that instance.
-Implementation
+* Ensure that a class has just a single instance.
+* Provide a global point of access to that instance.
+
+# Implementation
 Implementing a Singleton pattern involves several key steps:
 
 1. Make the Constructor Private: This prevents other classes from instantiating it directly.
