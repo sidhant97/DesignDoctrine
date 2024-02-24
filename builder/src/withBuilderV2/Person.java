@@ -30,13 +30,13 @@ public class Person {
         private int age;
         private String phoneNumber;
 
-        public PersonBuilder setName(String name) {
+        public PersonBuilder withName(String name) {
             this.name = name;
             return this;
         }
 
 
-        public PersonBuilder setAge(int age) {
+        public PersonBuilder withAge(int age) {
             this.age = age;
             return this;
         }
@@ -54,7 +54,7 @@ public class Person {
             return phoneNumber;
         }
 
-        public PersonBuilder setPhoneNumber(String phoneNumber) {
+        public PersonBuilder withPhoneNumber(String phoneNumber) {
             this.phoneNumber = phoneNumber;
             return this;
         }
