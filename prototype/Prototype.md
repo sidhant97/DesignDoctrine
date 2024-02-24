@@ -7,7 +7,7 @@ When given an object from a class, we must generate a duplicate of it.
 
 ![img_1.png](img_1.png)
 
-**Problem with Solution 1 :** Both objects have identical code, which is not in accordance with our use case statement.
+**Problem with Solution 1 :** Both objects have identical hash code, which is not in accordance with our use case statement.
 
 **Solution 2** :
 
@@ -57,7 +57,7 @@ The Registry Design Pattern, also known as the Registry or Registry Singleton pa
 * Provide a centralized registry for storing and accessing instances of classes.
 * Allow objects to be shared and reused throughout an application.
 
-#Use Cases
+# Use Cases
 * Managing and sharing instances of services or components.
 * Implementing a service locator where instances are centralized for easy access.
 * Centralized configuration management.
