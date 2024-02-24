@@ -76,6 +76,6 @@ The Registry Design Pattern, also known as the Registry or Registry Singleton pa
 # Example in Java
 Below is a simplified example of the Builder pattern used to construct a complex SearchAPI object. 
 
-[**SearchAPI Prototype and Registry patterns Example**](https://github.com/sidhant97/DesignDoctrine/tree/main/prototype)
+[**SearchAPI Prototype and Registry Design Pattern Example**](https://github.com/sidhant97/DesignDoctrine/tree/main/prototype)
 
 Both the Prototype and Registry patterns serve different purposes, with the Prototype pattern focusing on efficient object creation, and the Registry pattern focusing on centralized management and access of instances. Depending on the specific requirements of your application, you may choose to use one or both patterns.
