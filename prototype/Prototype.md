@@ -66,7 +66,7 @@ The Registry Design Pattern, also known as the Registry or Registry Singleton pa
 * Centralized management of instances promotes reusability.
 * Facilitates easy access and sharing of objects.
 * Simplifies the process of managing and configuring services.
-* 
+
 # Cons
 * Can lead to global state issues if not used carefully.
 * Increases the dependency of clients on the registry, potentially affecting testability.
