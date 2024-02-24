@@ -18,9 +18,9 @@ The Factory Design Pattern is a creational pattern that provides an interface fo
 
 Here is a simple example of how to implement the Factory design pattern in Java:
 
-* **[Single Threaded Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/singleThreaded)**
-* **[Eager Loading Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/eagerLoading)**
-* **[Double Check Locking Singleton Pattern](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton/src/doubleCheckLocking)**
+* [**Simple Factory:**](https://github.com/sidhant97/DesignDoctrine/tree/main/factory/src/simpleFactory)
+* [**Factory Method Factory:**](https://github.com/sidhant97/DesignDoctrine/tree/main/factory/src/factoryMethod)
+* [**Abstract Factory:**](https://github.com/sidhant97/DesignDoctrine/tree/main/factory/src/abstractFactoryMethod)
 
 # Use Cases
 The Singleton pattern is often used in scenarios where a single instance of a class is required to control the action throughout the execution. Common use cases include:
