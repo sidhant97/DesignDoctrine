@@ -19,10 +19,10 @@ Design patterns can be categorized into three main types: Creational, Structural
 
 # Creational Patterns
 
-* [**Builder:**](https://github.com/sidhant97/DesignDoctrine/tree/main/builder) Separates the construction of a complex object from its representation, allowing the same construction process to create various representations. This is especially useful for creating complex objects with numerous initialization parameters.
-* [**Singleton:**](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton) Ensures that a class has only one instance and provides a global point of access to it. This is useful in scenarios where multiple objects need to coordinate actions across a system.
-* [**Prototype and Registry:**](https://github.com/sidhant97/DesignDoctrine/tree/main/prototype) Prototype design pattern is a creational design pattern that allows creating new objects by copying an existing object, all while keeping the concrete classes hidden from the client.
-* [**Factory Method:**](https://github.com/sidhant97/DesignDoctrine/tree/main/factory) Defines an interface for creating an object but lets subclasses alter the type of objects that will be created. It's useful for encapsulating object creation when the exact types of objects may not be known until runtime.
+* [**Builder**](https://github.com/sidhant97/DesignDoctrine/tree/main/builder) Separates the construction of a complex object from its representation, allowing the same construction process to create various representations. This is especially useful for creating complex objects with numerous initialization parameters.
+* [**Singleton**](https://github.com/sidhant97/DesignDoctrine/tree/main/singleton) Ensures that a class has only one instance and provides a global point of access to it. This is useful in scenarios where multiple objects need to coordinate actions across a system.
+* [**Prototype and Registry**](https://github.com/sidhant97/DesignDoctrine/tree/main/prototype) Prototype design pattern is a creational design pattern that allows creating new objects by copying an existing object, all while keeping the concrete classes hidden from the client.
+* [**Factory Method**](https://github.com/sidhant97/DesignDoctrine/tree/main/factory) Defines an interface for creating an object but lets subclasses alter the type of objects that will be created. It's useful for encapsulating object creation when the exact types of objects may not be known until runtime.
 
 # Structural Patterns
 * Adapter (Wrapper): Allows objects with incompatible interfaces to collaborate. It's like a translator between two code interfaces, enabling them to work together without modifying their source code.
