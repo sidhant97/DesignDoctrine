@@ -2,8 +2,8 @@ package factoryMethod;
 
 public abstract class DataBaseFactory {
 
-    public DataBase getDataBase(String dataBase) {
-        DataBase dataBaseConnection = createConnection(dataBase);
+    public DataBase getDataBase() {
+        DataBase dataBaseConnection = createConnection();
         dataBaseConnection.getURL();
         dataBaseConnection.getHost();
         dataBaseConnection.getDriver();
@@ -11,5 +11,5 @@ public abstract class DataBaseFactory {
 
     }
 
-    protected abstract DataBase createConnection(String dataBase);
+    protected abstract DataBase createConnection();
 }
