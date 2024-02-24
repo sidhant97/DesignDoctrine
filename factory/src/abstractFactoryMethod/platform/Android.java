@@ -1,6 +1,6 @@
-package factoryMethod.platform;
+package abstractFactoryMethod.platform;
 
-import factoryMethod.PlatformEnum;
+import abstractFactoryMethod.PlatformEnum;
 
 public class Android extends Platform {
     @Override

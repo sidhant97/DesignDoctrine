@@ -1,4 +1,4 @@
-package factoryMethod.components.button;
+package abstractFactoryMethod.components.button;
 
 public class AndroidButton implements Button {
     @Override

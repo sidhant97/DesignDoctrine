@@ -1,4 +1,4 @@
-package factoryMethod;
+package abstractFactoryMethod;
 
 public enum PlatformEnum {
     IOS,
