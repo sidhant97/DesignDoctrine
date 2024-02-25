@@ -29,7 +29,7 @@ The Decorator pattern typically involves the following components:
 
 Here is a simple example of how to implement the Decorator design pattern in Java:
 
-* [**Two Wheeler**](https://github.com/kbhatia01/LLD1-Jan-7/blob/main/src/Decorator)
+* [**Two Wheeler**](https://github.com/sidhant97/DesignDoctrine/tree/main/decorator)
 
 # Use Cases
 
