@@ -26,7 +26,9 @@ Design patterns can be categorized into three main types: Creational, Structural
 
 # Structural Patterns
 * [**Adapter (Wrapper)**](https://github.com/sidhant97/DesignDoctrine/tree/main/adapter) Allows objects with incompatible interfaces to collaborate. It's like a translator between two code interfaces, enabling them to work together without modifying their source code.
-* Decorator: Adds new functionality to an object without altering its structure. This pattern is useful for adding responsibilities to objects dynamically and transparently, that is, without affecting other objects.
+* [**Decorator**](https://github.com/kbhatia01/LLD1-Jan-7/blob/main/src/Decorator) Adds new functionality to an object
+  without altering its structure. This pattern is useful for adding responsibilities to objects dynamically and
+  transparently, that is, without affecting other objects.
 * [**Facade**](https://github.com/sidhant97/DesignDoctrine/tree/main/facade) The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem, promoting loose coupling and simplifying client interactions.
 
 # Behavioral Patterns
