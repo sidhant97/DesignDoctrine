@@ -26,10 +26,10 @@ Design patterns can be categorized into three main types: Creational, Structural
 
 # Structural Patterns
 * [**Adapter (Wrapper)**](https://github.com/sidhant97/DesignDoctrine/tree/main/adapter) Allows objects with incompatible interfaces to collaborate. It's like a translator between two code interfaces, enabling them to work together without modifying their source code.
+* [**Facade**](https://github.com/sidhant97/DesignDoctrine/tree/main/facade) The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem, promoting loose coupling and simplifying client interactions.
 * [**Decorator**](https://github.com/sidhant97/DesignDoctrine/tree/main/decorator) Adds new functionality to an object
   without altering its structure. This pattern is useful for adding responsibilities to objects dynamically and
   transparently, that is, without affecting other objects.
-* [**Facade**](https://github.com/sidhant97/DesignDoctrine/tree/main/facade) The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem, promoting loose coupling and simplifying client interactions.
 * [**Flyweight**](https://github.com/sidhant97/DesignDoctrine/tree/main/flyweight) The Flyweight Design Pattern
   minimizes memory use by sharing as much data as possible between similar objects, effectively separating intrinsic
   state (shared) from extrinsic state (unique per object).
@@ -38,7 +38,5 @@ Design patterns can be categorized into three main types: Creational, Structural
 * Observer: Defines a dependency between objects so that when one object changes its state, all its dependents are notified and updated automatically. It's widely used in implementing distributed event handling systems, like the model-view-controller (MVC) architecture.
 
 * [**Strategy**](https://github.com/sidhant97/DesignDoctrine/tree/main/strategy) Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. This is useful when you have multiple algorithms for a specific task and want to switch between them dynamically.
-
-* Command: Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations. It also allows for the support of undoable operations.
 
 Understanding and applying design patterns appropriately can significantly enhance the quality of software in terms of its architecture, maintainability, and scalability. However, it's also crucial not to overuse or misuse them, as that can lead to unnecessarily complex and hard-to-maintain code.
