@@ -30,6 +30,9 @@ Design patterns can be categorized into three main types: Creational, Structural
   without altering its structure. This pattern is useful for adding responsibilities to objects dynamically and
   transparently, that is, without affecting other objects.
 * [**Facade**](https://github.com/sidhant97/DesignDoctrine/tree/main/facade) The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem, promoting loose coupling and simplifying client interactions.
+* [**Flyweight**](https://github.com/kbhatia01/LLD1-Jan-7/tree/main/src/Decorator) The Flyweight Design Pattern
+  minimizes memory use by sharing as much data as possible between similar objects, effectively separating intrinsic
+  state (shared) from extrinsic state (unique per object).
 
 # Behavioral Patterns
 * Observer: Defines a dependency between objects so that when one object changes its state, all its dependents are notified and updated automatically. It's widely used in implementing distributed event handling systems, like the model-view-controller (MVC) architecture.
