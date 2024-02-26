@@ -37,7 +37,7 @@ Design patterns can be categorized into three main types: Creational, Structural
 # Behavioral Patterns
 * Observer: Defines a dependency between objects so that when one object changes its state, all its dependents are notified and updated automatically. It's widely used in implementing distributed event handling systems, like the model-view-controller (MVC) architecture.
 
-* Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. This is useful when you have multiple algorithms for a specific task and want to switch between them dynamically.
+* [**Strategy**](https://github.com/sidhant97/DesignDoctrine/tree/main/strategy) Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. This is useful when you have multiple algorithms for a specific task and want to switch between them dynamically.
 
 * Command: Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations. It also allows for the support of undoable operations.
 
