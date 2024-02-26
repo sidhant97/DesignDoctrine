@@ -30,7 +30,7 @@ Design patterns can be categorized into three main types: Creational, Structural
   without altering its structure. This pattern is useful for adding responsibilities to objects dynamically and
   transparently, that is, without affecting other objects.
 * [**Facade**](https://github.com/sidhant97/DesignDoctrine/tree/main/facade) The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem, promoting loose coupling and simplifying client interactions.
-* [**Flyweight**](https://github.com/kbhatia01/LLD1-Jan-7/tree/main/src/Decorator) The Flyweight Design Pattern
+* [**Flyweight**](https://github.com/sidhant97/DesignDoctrine/tree/main/flyweight) The Flyweight Design Pattern
   minimizes memory use by sharing as much data as possible between similar objects, effectively separating intrinsic
   state (shared) from extrinsic state (unique per object).
 
