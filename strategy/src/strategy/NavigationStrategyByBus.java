@@ -1,3 +1,5 @@
+package strategy;
+
 public class NavigationStrategyByBus implements NavigationStrategy {
     @Override
     public void getRoutePath() {

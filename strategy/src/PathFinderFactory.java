@@ -1,3 +1,8 @@
+import strategy.NavigationStrategy;
+import strategy.NavigationStrategyByBus;
+import strategy.NavigationStrategyByCar;
+import strategy.NavigationStrategyByWalk;
+
 public class PathFinderFactory {
 
     public static NavigationStrategy getPathFind(String mode) {

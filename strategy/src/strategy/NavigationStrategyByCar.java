@@ -1,3 +1,5 @@
+package strategy;
+
 public class NavigationStrategyByCar implements NavigationStrategy {
     @Override
     public void getRoutePath() {
