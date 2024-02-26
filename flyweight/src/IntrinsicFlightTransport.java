@@ -1,27 +1,27 @@
 public class IntrinsicFlightTransport {
     private static IntrinsicFlightTransport intrinsicFlightTransport = null;
-    private final int passengeCount; //intrinsic attribute
+    private final int passengerCount; //intrinsic attribute
     private final int noOfStops; //intrinsic attribute
 
-    private IntrinsicFlightTransport(int passengeCount, int noOfStops) {
+    private IntrinsicFlightTransport(int passengerCount, int noOfStops) {
         this.noOfStops = noOfStops;
-        this.passengeCount = passengeCount;
+        this.passengerCount = passengerCount;
 
     }
 
-    public static IntrinsicFlightTransport getInstance(int passengeCount, int noOfStops) {
+    public static IntrinsicFlightTransport getInstance(int passengerCount, int noOfStops) {
         if (null == intrinsicFlightTransport) {
             synchronized (IntrinsicFlightTransport.class) {
                 if (null == intrinsicFlightTransport) {
-                    intrinsicFlightTransport = new IntrinsicFlightTransport(passengeCount, noOfStops);
+                    intrinsicFlightTransport = new IntrinsicFlightTransport(passengerCount, noOfStops);
                 }
             }
         }
         return intrinsicFlightTransport;
     }
 
-    public int getPassengeCount() {
-        return passengeCount;
+    public int getPassengerCount() {
+        return passengerCount;
     }
 
     public int getNoOfStops() {
