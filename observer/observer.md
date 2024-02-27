@@ -34,8 +34,7 @@ Consider a weather station application (the Subject) that tracks weather data (t
 * When the weather data changes, the weather station notifies all subscribed display elements.
 * Each display element then updates its display with the new weather information.
 
-
-* [**Weather Station**](https://github.com/sidhant97/DesignDoctrine/tree/main/observer)
+[**Weather Station Example**](https://github.com/sidhant97/DesignDoctrine/tree/main/observer)
 
 # Use Cases
 * In Graphical User Interface (GUI) applications, the Observer pattern is extensively used to handle user interactions and update the UI accordingly. For instance, a model representing the application state (Subject) can notify various UI components (Observers) to update themselves when the state changes, such as enabling or disabling buttons, showing notifications, or updating data displays.
